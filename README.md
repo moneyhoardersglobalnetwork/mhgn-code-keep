@@ -1,8 +1,12 @@
 # Blocks Of Passion Protocol 
+"The true no initial investment needed protocol."
+## Inspiration
+The foundations that sit in the high places of crypto are shady and we all know this! The idea of Blocks Of Passion Foundation as a decentralized non profit organization was sparked in late 2021 early 2022 by @moneyhoardermike founder and C.E.O of MHGN (Money Hoarders Global Netowrk).  The blockchain protocol's structure is centered around the BOP token. We like to call it "The gift that keeps on giving!" because we want to build a welcoming community in the MHGN ecosystem. All hoarders of BOP token should be inspired to create new use cases by donating their tokens or supporting businesses that accept BOP as payment. MHGN"s new clothing line House of Hoarders will soon be doing just that and any orders made with BOP will be add to a locked liquidity pool for BOP token.
 
 | :exclamation:  ** WARNING None of the contracts are audited!  |
 |-----------------------------------------|
 
+We have start to build this repo out and connect with Chainlink and Moralis
 ### Completed (but unreviewed) minimal contracts:
 - `Lending.sol`: Based off [Aave](https://aave.com/)
 - `Staking.sol`: Based off [Synthetix](https://synthetix.io/)
