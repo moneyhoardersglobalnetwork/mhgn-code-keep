@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract BopToken is ERC20, ERC20Burnable, ERC20Permit, ERC20Votes, Ownable {
-    constructor() ERC20("BOP by MHGN", "") ERC20Permit("BOP by MHGN") {
+    constructor() ERC20("BOP by MHGN", "BOP") ERC20Permit("BOP by MHGN") {
         _mint(msg.sender, 1200000000 * 10 ** decimals());
     }
 
