@@ -4,15 +4,21 @@ This repo is being revamped into a storage repo for MHGN solidity contracts.
 Blocks of Passion Protocol is migrating 
 "The true no initial investment needed protocol."
 ## Inspiration
- The idea of Blocks Of Passion Foundation as a decentralized non profit organization was sparked in late 2021 early 2022 by @moneyhoardermike founder and C.E.O of MHGN (Money Hoarders Global Netowrk).  The blockchain protocol's structure is centered around the BOP token. We like to call it "The gift that keeps on giving!" We want to build a welcoming community in the MHGN ecosystem. All hoarders of BOP token should be inspired to create new use cases by donating their tokens or supporting businesses that accept BOP as payment. MHGN"s new clothing line House of Hoarders will soon be doing just that and any orders made with BOP will be add to a locked liquidity pool for BOP token. We plan use Chainlink Automation to automate BOP token swaps.
+ The idea of Blocks Of Passion Foundation as a decentralized non-profit organization was sparked in late 2021 early 2022 by @moneyhoardermike founder and C.E.O of MHGN (Money Hoarders Global Netowrk).  The blockchain protocol's structure is centered around the BOP token. We like to call it "The gift that keeps on giving!" We want to build a welcoming community in the MHGN ecosystem. All hoarders of BOP token should be inspired to create new use cases by donating their tokens or supporting businesses that accept BOP as payment. MHGN"s new clothing line House of Hoarders will soon be doing just that and any orders made with BOP will be add to a locked hoarding rewards pool for BOP token. We plan to integrate with Chainlink Automation to automate contract functions to maintain atleast 60% of the total supply in the hoarding contract.
+
+ We are currently finishing up the last testing of the MhgnHoardingContract which will set a new standard for the MHGN ecosystem.
 
 
 This ReadMe file is incomplete 
 | :exclamation:  ** WARNING None of the contracts are audited!  |
 |-----------------------------------------|
 
-We have start to build this repo out and connect with Chainlink and Moralis
+We have start to build this repo out and connect with Chainlink, Moralis, Polygon, Base, Infura, Alchemy.
+
+
+
 ### Completed (but unreviewed) minimal contracts:
+@dev moneyhoardermike // These files should be reference/templates to build off create a new .sol file named whatever! 
 - `Lending.sol`: Based off [Aave](https://aave.com/)
 - `Staking.sol`: Based off [Synthetix](https://synthetix.io/)
 - `RewardToken.sol`: Based off [Synthetix](https://synthetix.io/)
@@ -72,8 +78,8 @@ It's recommended that you've gone through the [hardhat getting started documenta
 After installing all the requirements, run the following:
 
 ```bash
-git clone https://github.com/smartcontractkit/defi-minimal/
-cd defi-minimal
+git clone https://github.com/moneyhoardersglobalnetwork/mhgn-code-keep
+cd mhgn-code-keep
 ```
 Then:
 ```
