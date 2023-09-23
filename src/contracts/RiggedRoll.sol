@@ -11,6 +11,7 @@ contract RiggedRoll is Ownable {
     event Roll(address indexed player, uint256 amount, uint256 roll);
     event Winner(address winner, uint256 amount);
     DiceGame public diceGame;
+    uint256 public nonce;
     //uint256 public price = 0.002 ether; Sets a price
 
     constructor(address payable diceGameAddress) {
@@ -24,10 +25,11 @@ contract RiggedRoll is Ownable {
     }*/
 
     //Add withdraw function to transfer ether from the rigged contract to an address
-    function withdraw(address __addr, uint256 amount) public payable {
-        require(__addr == owner(), "Only the owner can withdraw");
-        (bool sent, ) = __addr.call{value: amount}("");
-        require(sent, "Failed to send Ether");
+    function withdraw(address to, uint256 amount) public onlyOwner {
+
+        (bool success, ) = to.call{value: amount}("");
+
+        require(success, "Transfer failed!");
     }
 
     //Add riggedRoll() function to predict the randomness in the DiceGame contract and only roll when it's going to be a winner
@@ -40,7 +42,7 @@ contract RiggedRoll is Ownable {
             abi.encodePacked(prevHash, address(diceGame), diceGame.nonce())
         );
         uint256 roll = uint256(hash) % 16;
-        if (roll <= 2) {
+        if (roll <= 2, "Sorry! Try your Luck Again...") {
             return;
         }
         console.log("THE RIGGED ROLL IS ", roll);
