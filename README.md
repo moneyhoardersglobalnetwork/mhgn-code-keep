@@ -1,12 +1,5 @@
-# MHGN Contracts/Blocks Of Passion Protocol 
-
-This repo is being revamped into a storage repo for MHGN solidity contracts.
-Blocks of Passion Protocol is migrating 
-"The true no initial investment needed protocol."
-## Inspiration
- The idea of Blocks Of Passion Foundation as a decentralized non-profit organization was sparked in late 2021 early 2022 by @moneyhoardermike founder and C.E.O of MHGN (Money Hoarders Global Netowrk).  The blockchain protocol's structure is centered around the BOP token. We like to call it "The gift that keeps on giving!" We want to build a welcoming community in the MHGN ecosystem. All hoarders of BOP token should be inspired to create new use cases by donating their tokens or supporting businesses that accept BOP as payment. MHGN"s new clothing line House of Hoarders will soon be doing just that and any orders made with BOP will be add to a locked hoarding rewards pool for BOP token. We plan to integrate with Chainlink Automation to automate contract functions to maintain atleast 60% of the total supply in the hoarding contract.
-
- We are currently finishing up the last testing of the MhgnHoardingContract which will set a new standard for the MHGN ecosystem.
+# MHGN Code Keep
+This repo is not a build it only holds reference code for fasttrack future buidls
 
 
 This ReadMe file is incomplete 
